@@ -1,0 +1,41 @@
+Student ID: 20200681
+Student Name: Omar Ahmed Abdelrahman Mohamed
+
+1. Libraries to be installed:
+install both networkx, matplotlib using pip in the terminal using these command
+    1. open the terminal
+    2. write the following commands:
+        pip install networkx
+        pip install matplotlib
+
+2. input:
+    2.1 option:
+        their are 3 inputs options you can change between them by changing the choice in this line:
+        ""initial_marking, goal_place, edges = input_data(choice=3)""
+
+        first 2 options are hard coded for making things more flexable:
+        1. choice = 1: this option will show the first Example in the slides in page (35) lecture (PETRI NETS)
+        2. choice = 2: this option will show another example
+
+        to enable the user input and make it dynamic make it the choice 3.
+        3. choice = 3: this option will take the input from the user in a dynamic way
+
+    2.2 format:
+        Initial place number
+        Goal place number
+        Number of edges
+        Edges: the edges in the graph using this format P1 T2, by using just spaces between the the two node
+
+
+
+3. Output Format:
+    Soundness, Not Soundness
+    Graph: the graph of the reachability graph
+        goal: red
+        start: green
+
+4. images for more illustrations:
+    https://drive.google.com/drive/u/1/folders/1NXPFYG3wl0sYRAg6LaFBgJDXrCf6dQ-L
+
+
+
